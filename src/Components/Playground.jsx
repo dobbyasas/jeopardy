@@ -67,7 +67,7 @@ const initialGameData = [
     category: "Jak moc znáte Kryštofa?",
     questions: [
       { value: "200", question: "Můj drink of choice?", answer: "Sex on the Beach" },
-      { value: "400", question: "Kolikrát mě sebrala policie?", answer: "1" },
+      { value: "400", question: "Jak se jmenoval sbor ve kterém jsem zpíval", answer: "UNIQUE Rokycany" },
       { value: "600", question: "Moje nejoblíbenější skladba od Sleep Token", answer: "Jaws / Granite" },
       { value: "800", question: "Moje přezdívka než jsem si začal říkat Tofi?", answer: "Dobby" },
       { value: "1000", question: "Nejvyšší převýšení které jsem kdy vylezl? ( tolerance 300 metrů)", answer: "+- 4100 metrů" },
