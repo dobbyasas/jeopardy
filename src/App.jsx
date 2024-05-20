@@ -22,7 +22,6 @@ function App() {
     setPlayers(newPlayers);
   };
 
-
   return (
     <div className="App">
       <Playground />
