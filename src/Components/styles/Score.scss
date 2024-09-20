@@ -1,5 +1,5 @@
-$background-color: #0a0a0a;
-$text-color: #FFFFFF;
+$background-color: #e4e4e4;
+$text-color: #161616;
 $neon-purple: #095f68;
 
 .footer {
@@ -13,6 +13,7 @@ $neon-purple: #095f68;
   width: 100%;
   box-sizing: border-box;
   z-index: 1000;
+  gap: 30px;
 
   .player {
     display: flex;
@@ -21,10 +22,8 @@ $neon-purple: #095f68;
     color: $text-color;
 
     img {
-      width: 100px;
-      height: 100px;
-      border-radius: 50%;
-      border: 2px solid $neon-purple;
+      width: 70px;
+      height: 70px;
       margin-right: 10px;
     }
 
@@ -43,8 +42,8 @@ $neon-purple: #095f68;
       }
 
       .button-container {
-        display: flex; // Ensure buttons are in a flex container
-        gap: 5px; // Add a gap between buttons
+        display: flex;
+        gap: 5px;
 
         button {
           background-color: $neon-purple;

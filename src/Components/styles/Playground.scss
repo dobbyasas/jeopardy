@@ -1,45 +1,97 @@
-$background-color: #121212;
-$text-color: #FFFFFF;
+$background-color: #e4e4e4;
+$text-color: #161616;
 $neon-purple: #095f68;
+$active-color: lighten($neon-purple, 20%);
 
 .playground {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
+  padding-bottom: 100px;
+
+  .teams {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: $background-color;
+    padding: 15px 0;
+    z-index: 1000;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+    gap: 40px;
+
+    .team {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 0 10px;
+      color: $text-color;
+
+      img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      h3 {
+        margin: 0;
+        text-align: center;
+      }
+
+      p {
+        margin: 5px 0 0;
+      }
+
+      &.active {
+        background-color: $active-color;
+        padding: 10px;
+        border-radius: 10px;
+        color: white;
+      }
+    }
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Maximum 4 categories per row */
+    gap: 20px;
+    padding: 20px;
+    justify-items: center; /* Center the items within each grid cell */
+    justify-content: center; /* Center the entire grid when there are fewer than 4 in the last row */
+    width: 100%;
+  }
 
   .category {
-    margin: 10px;
-    background-color: darken($background-color, 5%);
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 20px;
 
     h2 {
-      color: #0c7782;
-      margin-bottom: 15px;
+      text-align: center;
+      margin-bottom: 10px;
     }
 
     .question-button {
-        margin: 10px;
-      width: 100px;
-      height: 50px;
+      display: block;
+      margin: 5px auto;
       background-color: $neon-purple;
-      color: $text-color;
+      color: white;
       border: none;
+      padding: 10px;
       border-radius: 5px;
       cursor: pointer;
-      margin-bottom: 5px;
+      width: 100px;
 
       &:hover {
         background-color: lighten($neon-purple, 10%);
       }
-      &:focus {
-        outline: none;
-      }
+
       &:disabled {
-        background-color: #2e103c;
-        cursor: default;
+        background-color: gray;
+        cursor: not-allowed;
       }
     }
   }

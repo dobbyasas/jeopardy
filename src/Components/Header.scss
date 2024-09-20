@@ -1,0 +1,30 @@
+.header {
+    background-color: white;
+    color: black;
+    padding: 1rem;
+
+    .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    .header-content {
+      display: flex;
+      align-items: center;
+  
+      .logo {
+        height: 4rem;
+        width: auto;
+        margin-right: 1rem;
+      }
+  
+      .title {
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+  }
+  
