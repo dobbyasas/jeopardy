@@ -1,83 +1,87 @@
 [
     {
-      "category": "",
+      "category": "Hudba",
       "questions": [
-        { "value": "200", "question": "fsd", "answer": "fds" },
-        { "value": "400", "question": "", "answer": "" },
-        { "value": "600", "question": "", "answer": "" },
-        { "value": "800", "question": "", "answer": "" },
-        { "value": "1000", "question": "", "answer": "" }
+        { "value": "200", "question": "Kdo je 'Král popu'?", "answer": "Michael Jackson" },
+        { "value": "400", "question": "Kde se narodil Wolfgand A. Mozart?", "answer": "Salzburg, Rakousko" },
+        { "value": "600", "question": "Který stát vyhrál Eurovizi 2024?", "answer": "Švýcarsko (Nemo Mettler s písní The Code)" },
+        { "value": "800", "question": "Který český rapper je momentálně celosvětově nejposlouchanější?", "answer": "REDZED" },
+        { "value": "1000", "question": "Kolik cen grammy vyhrála skupina Queen?", "answer": "2" }
+      ]
+    },
+
+
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
       ]
     },
     {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      },
-      {
-        "category": "",
-        "questions": [
-          { "value": "200", "question": "", "answer": "" },
-          { "value": "400", "question": "", "answer": "" },
-          { "value": "600", "question": "", "answer": "" },
-          { "value": "800", "question": "", "answer": "" },
-          { "value": "1000", "question": "", "answer": "" }
-        ]
-      }
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    },
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    },
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    },
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    },
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    },
+    {
+      "category": "Test",
+      "questions": [
+        { "value": "200", "question": "Test", "answer": "Test" },
+        { "value": "400", "question": "Test", "answer": "Test" },
+        { "value": "600", "question": "Test", "answer": "Test" },
+        { "value": "800", "question": "Test", "answer": "Test" },
+        { "value": "1000", "question": "Test", "answer": "Test" }
+      ]
+    }
+
+      
   ]
   

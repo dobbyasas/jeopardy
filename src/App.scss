@@ -1,3 +1,55 @@
 .App {
   text-align: center;
 }
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('./assets/mountains.svg');
+  background-color: #ececec;
+  animation: fadeIn 0.5s ease;
+
+  .countdown-number {
+    font-size: 8rem;
+    color: rgb(0, 0, 0);
+    animation: pulse 1s infinite;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+.start-screen, .App header {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    display: none;
+  }
+}

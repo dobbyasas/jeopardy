@@ -13,6 +13,7 @@ const Question = ({ question, value, answer, onBack, onShowAnswer }) => {
     <div className="question-container">
       <h2>{value}</h2>
       <h1>{question}</h1>
+      <br /><br /><br /><br /><br />
       {!showAnswer && (
         <button onClick={handleShowAnswer}>
           Show Answer

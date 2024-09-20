@@ -29,7 +29,6 @@ const Playground = () => {
     fetchTeams();
   }, []);
 
-
   useEffect(() => {
     const fetchQuestions = async () => {
       const response = await fetch('/questions.json');
@@ -58,7 +57,7 @@ const Playground = () => {
   return (
     <div className="playground">
       {teams.length > 0 && (
-        <div className="teams">
+        <div className="teams animate-bottom">
           {teams.map((team, index) => (
             <div key={index} className={`team ${index === currentTeamIndex ? 'active' : ''}`}>
               <img src={team.profile_picture} alt={team.team_name} />
@@ -69,10 +68,12 @@ const Playground = () => {
         </div>
       )}
 
-      <div className="categories">
+      <div className="categories animate-questions">
         {gameData.map((category, categoryIndex) => (
           <div key={categoryIndex} className="category">
             <h2>{category.category}</h2>
+            <br />
+            <div className="questions-container">
             {category.questions.map((question, questionIndex) => (
               <button
                 key={questionIndex}
@@ -83,6 +84,7 @@ const Playground = () => {
                 {question.value}
               </button>
             ))}
+          </div>
           </div>
         ))}
       </div>
